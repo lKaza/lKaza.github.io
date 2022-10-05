@@ -2158,69 +2158,6 @@ input, select, textarea {
 		background-color: #37a6cb;
 	}
 
-/* Image */
-
-	.image {
-		border: 0;
-		display: inline-block;
-		position: relative;
-		
-	}
-
-		.image img {
-			display: block;
-			
-			
-		}
-
-		.image.left, .image.right {
-			max-width: 30%;
-		}
-
-			.image.left img, .image.right img {
-				width: 100%;
-			}
-
-		.image.left {
-			float: left;
-			margin: 0 1.5em 1.25em 0;
-			top: 0.25em;
-		}
-
-		.image.right {
-			float: right;
-			margin: 0 0 1.25em 1.5em;
-			top: 0.25em;
-		}
-
-		.image.fit {
-			display: block;
-			margin: 0 0 2em 0;
-			width: 100%;
-		}
-
-			.image.fit img {
-				width: 100%;
-			}
-
-		.image.main {
-			display: block;
-			margin: 2.5em 0;
-			width: 100%;
-		}
-
-			.image.main img {
-				width: 100%;
-			}
-
-			@media screen and (max-width: 736px) {
-
-				.image.main {
-					margin: 1.5em 0;
-				}
-
-			}
-
 /* List */
 
 	ol {
@@ -2750,12 +2687,10 @@ input, select, textarea {
 			background-repeat: no-repeat;
 			background-size: cover;
 			cursor: default;
-			height: 40vh;
-			max-height: 40em;
-			min-height: 23em;
+	
 			overflow: hidden;
 			position: relative;
-			width: 55%;
+			width: 15%;
 		}
 
 			.tiles article .image {
@@ -2795,7 +2730,7 @@ input, select, textarea {
 				display: block;
 				height: 100%;
 				left: 0;
-				opacity: 0.25;
+				opacity: 0;
 				position: absolute;
 				width: 100%;
 				z-index: 2;
@@ -3976,4 +3911,80 @@ input, select, textarea {
 	bottom: 0;
 	z-index: 1;
   }
+#description{
+	
+		width: 100%;
+		padding: 50px 0;
+		text-align: center;
+		background-color:#33475b;
+		margin-top: 20px;
+		
+	  
+}
 
+
+div.gallery {
+	border: 1px solid #ccc;
+	margin-top: 1%;
+	margin-bottom: 2%;
+	
+  }
+  
+  div.gallery:hover {
+	border: 1px solid #777;
+  }
+  
+  div.gallery img {
+	width: 100%;
+	height: auto;
+	
+  }
+  button{
+	width: 100%;
+	height: 20vw;
+	background-size: 110%;
+  }
+  #nostrectch{
+	
+	overflow: hidden;
+  }
+  
+  div.desc {
+	padding: 2vw;
+	text-align: center;
+	display: none;
+	
+  }
+  
+
+  .responsive {
+	
+	padding: 0 6px;
+	float: left;
+	width: 49%;
+	
+
+	
+	
+  }
+  
+  @media only screen and (max-width: 700px) {
+	.responsive {
+	  width: 49.99999%;
+	  margin: 6px 0;
+	  
+	}
+  }
+  
+  @media only screen and (max-width: 500px) {
+	.responsive {
+	  width: 100%;
+	 
+	}
+  }
+  
+  .clearfix:after {
+	content: "";
+	display: table;
+	clear: both;
+  }

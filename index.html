@@ -49,10 +49,15 @@
 								<h1>Hi, my name is Rodrigo Guzmán</h1>
 							</header>
 							<div class="content">
-								<p>This is a showcase of the project that i've worked in.</p>
-								<ul class="actions">
-									<li><a href="#one" class="button next scrolly">Check it out</a></li>
-								</ul>
+								<p>	Unity developer for the past 2 years mostly for PC,passionate about videogames
+									 and stylized graphics in general. Loves to learn new things and solve problems
+									 Wants to create have fun!. Most of my work is low-level prototype assets or self-made projects. Contact me at 
+									<a href="mailto:rodrigoguzman1202@gmail.com">rodrigoguzman1202@gmail.com</a>  </p>
+									<p> <a href="/files/CV-Rodrigo-Esp.pdf"> 
+										<img src = "icons/Adobe_Acrobat_Reader_icon.png" style="height: 45px;"> Revisa mi curriculum!</a > 
+										<a href="/files/CV-Rodrigo-Eng.pdf">
+											<img src = "icons/Adobe_Acrobat_Reader_icon.png" style=" height: 45px;">
+										 Check out my CV.</a></p>	
 							
 							</div>
 						</div>
@@ -61,10 +66,149 @@
 
 				<!-- Main -->
 					<div id="main">
+						
+					
+						<div id="middle-row"  style="width: 80%; height: 80%; margin-left: 10%; display: block;" >
+							<h3>Gallery</h3>
+							<div class="responsive">
+								<div class="gallery">
+								 
+								
+									<button style="background-image: url('images/TheTravelers.png');"  onclick="ShowOrHide(1)"></button>
+									
+								  
+								  <div id="desc1" style="display: none;"  class="desc">
+									<h3><a   href="landing.html#thetravelers" class="link" >The Travelers</a></h3>
+									<p>Starting with a new team from concept 
+									i've been working closely with the lead programmer and a 
+									3D Artist with the vision to create a new game. 
+									Most of my duties entitles creating UI with navigation system (Gamepad),
+									shaders,VFX,optimization and establishing a pipeline to work with the 3D 
+									merging the programming side with the art in the game engine.</p>
+									<a href = "https://www.instagram.com/p/CjLm3YejDOB">Check out our prototype trailer video!</a>
+									
+										<li style="padding-top: 15px; padding-bottom: 15px;"><a  href="
+											https://youtu.be/XMc5T5XhcJs" class="button">Showcase video</a></li>
+											<video id="showcase-video"  autoplay loop muted>
+												<source src="videos/ShaderSombras.mp4" type="video/mp4"/> 
+											</video>
+											<p>I would say one of the best shaders out of this project was the shadow enemy (made with Amplify Shader Editor), 
+												Initially i was asked to do a "liquid" type of movement for a slash
+												this was to reflect "Umbra" as is called in the game, 
+												so i gather reference and ended getting the one on the left of the video. 
+												Here you can see nodes on how its made, essentially scrolling two noises between each other within the UVs of the mesh 
+												(can be made with one with multiples channels). 
+												It also includes a outline, but for that you only extrude normals with a color in a extra pass.
+												
+																						</p>
+												<img src="images/Noise.png" style="padding-top: 5px; padding-bottom: 15px; width:100%; height: auto" alt="" data-position="center center" />
+												<p>After that, the shader had a natural evolution for more 
+													flexibility over the noise channels and a mask for so you can decide wehere you want the effect 
+													(the one on the right) Few more design choices over transparency and colors so it ended up being like the one in the middle of the video.</p>
+												<img src="images/Noise2.png" style="padding-top: 5px; padding-bottom: 15px; width:100%; height: auto" alt="" data-position="center center" />
+									
+								
+								</div>
+								</div>
+							  </div>
+							  
+							  <div class="responsive">
+								<div class="gallery">
+									<button style="background-image: url('images/Rem2.png');"  onclick="ShowOrHide(3)"></button>
+								  <div id="desc3" class="desc" style="display: none;">
+									<h3>Rem from Rezero</h3>
+									<p>So, i wanted to learn how to get stylized characters on the game engine , 
+									i actually made a few more before this one but they're not that good. 
+									I made this model using poly modelling following good reference and with the help of a
+									<a  href="https://youtu.be/Ug-I-tpAXjM"> Nhij Quang timelapse</a> that he has on his youtube channel.</p>
+									<video id="showcase-video"  autoplay loop muted>
+										<source src="videos/rem.mp4" type="video/mp4"/> 
+									</video>
+									<p>And this was the end result, i was quite satisfied to say the least.
+										
+										Explanation on this one can be very long so i'll just leave here are a few pictures of the process.</p>
+										<p><a href="https://sketchfab.com/3d-models/rem-from-rezero-bf6cb679a9cf4cf882ba869cd8d4b017"> Check the model here in sketchfab </a></p>
+									<img src="images/Remhead.png" style="padding-top: 5px; padding-bottom: 15px; width:60%; height: 40%;" alt="" data-position="center center" />
+									<img src="images/Body.png" style="padding-top: 5px; padding-bottom: 15px; width:100%; height: auto" alt="" data-position="center center" />
+									<p>I had to rerig her a few more times because it was not working properly, Especially the skirt as i expected with the physics.</p>
+									<img src="images/RemFull.png" style="padding-top: 5px; padding-bottom: 15px; width:100%; height: auto" alt="" data-position="center center" />
+								</p>
 
+								</div>
+								</div>
+							  </div>
+							  
+							  <div class="responsive">
+								<div class="gallery">
+									<button style="background-image: url('images/Headworld.png');"  onclick="ShowOrHide(2)"></button>
+								  <div id="desc2" style="display: none;" class="desc">
+									<h3>Headworld</h3>
+									<p>Technical prototype with dedicated server and client arquitecture.
+												Most of my duties were managing the client side be it handling
+												 network packages to match animations, enviromental design, 
+												 client side performance, day and night system, lightmaps and UI Elements.</p>
+												 
+												 <img src="images/Lava.png" style="padding-top: 5px; padding-bottom: 15px; width:100%; height: auto" alt="" data-position="center center" />
+												 <p>In this project i made a few shaders mostly related to enviroment, in this case a Lava for the boss room
+													I was very new to creating shaders during this point, so i used a tutorial as a starting point and then 
+													i added my own pieces to get a little bit of more normals in. Sadly i dont have the tutorial at hand to give the credits
+													but thanks anyway random youtuber.
+												 </p>
+												</div>
+								</div>
+							  </div>
+							  
+							 
+							  <div class="responsive">
+								<div class="gallery">
+									<button style="background-image: url('images/Kelo.png');"  onclick="ShowOrHide(4)"></button>
+								  <div id="desc4" style="display: none;" class="desc">
+									<p>Mobile development trying to replicate "Archero" mobile game mechanics, made in only a few days.</p>
+
+
+
+									</div>
+								</div>
+							  </div>
+							  <div class="responsive">
+								<div class="gallery">
+									<button style="background-image: url('images/PyroBoom.png');"  onclick="ShowOrHide(5)"></button>
+								  <div id="desc5" style="display: none;" class="desc">
+									<p>First formal Game made in a gamejam of 48 hours, 
+										Funny enough its on the missed deadline because we didnt click "Send" on the jam website. </p>
+									
+										<li><a href="https://ikaza.itch.io/pyroboom" class="button">Try it out</a></li>
+									
+									
+									
+									</div>
+								</div>
+							  </div>
+							  <div class="responsive">
+								<div class="gallery">
+									<button style="background-image: url('images/Projects.png');"  onclick="ShowOrHide(6)"></button>
+								  <div id="desc6" style="display: none;" class="desc">
+									<h3>Unity Learning projects</h3>
+									<p>Most of these projects were made following any kind of tutorial in internet, be it from a course or youtube videos.</p>
+							
+									
+									
+										<li><a id="unityprojects" href="https://www.youtube.com/watch?v=CYtZyqsbRKM" class="button next">Check out the showcase</a></li>
+									
+								</div>
+								</div>
+							  </div>
+							  
+							  <div class="clearfix"></div>
+						
+						
+						</div>
 						<!-- One -->
+						<!--
 							<section id="one" class="tiles">
+								
 								<article>
+									<button onclick="ShowOrHide('The Travelers',theTravelersText,'images/logosoloLETRAScolor (1).png','www.instagram.com/p/CjLm3YejDOB','Button')"></button>
 									<span class="image">
 										<img src="images/TheTravelers.png" alt="" />
 									</span>
@@ -73,6 +217,7 @@
 										<p>Game Founded by "Fondo Audiovisual" currently a WIP</p>
 									</header>
 								</article>
+			
 								<article>
 									<span class="image">
 										<img src="images/Headworld.png" alt="" />
@@ -116,33 +261,35 @@
 										<img src="images/Projects.png" alt="" />
 									</span>
 									<header class="major">
+										
 										<h3><a href="landing.html#unityprojects" class="link">Unity Learning Proyects </a></h3>
 										<p>Projects made with Tutorials or Courses</p>
 									</header>
 								</article>
 							</section>
+						-->
+
 
 						<!-- Two -->
+						<!--
 							<section id="two">
-								<div class="inner">
-									<header class="major">
-										<h2>About me</h2>
+								
+								<div id="description"  class="inner">
+									<a id="hreflink" href="" >
+										<img id="image" style="height: 80%; width:40%;" src="" alt="" data-position="top center" />
+									</a>
+									<header >
+										<h2 id="title" >Title</h2>
 									</header>
-									<p>Passionate Developer who loves to learn new things!. Contact me at 
-										<a href="mailto:rodrigoguzman1202@gmail.com">rodrigoguzman1202@gmail.com</a>  </p>
-										<p> <a href="/files/CV-Rodrigo-Esp.pdf"> 
-											<img src = "icons/Adobe_Acrobat_Reader_icon.png" style="height: 45px;"> Revisa mi curriculum!</a > 
-											<a href="/files/CV-Rodrigo-Eng.pdf">
-												<img src = "icons/Adobe_Acrobat_Reader_icon.png" style=" height: 45px;">
-											 Check out my CV.</a></p>
-										
-									<ul class="actions">
-										<li><a href="landing.html" class="button next">Check me out!</a></li>
-									</ul>
+									<p  id="descriptionText" style="text-align:center; margin-left: 5%; margin-right: 5%;">Description</p>
+										<a id="hreflink2" href="" class="button"><p id ="buttonText">Trys it out</p></a>
+																											
 								</div>
 							</section>
-
+-->
 					</div>
+					
+
 
 				<!-- Contact -->
 				
@@ -158,12 +305,13 @@
 								<li><a href="https://www.linkedin.com/in/rodrigo-guzman-a5277115b/" class="icon brands alt fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
 							</ul>
 							<ul class="copyright">
-								<li>&copy; Rodrigo Guzmán</li><li>Design: <a href="https://html5up.net">HTML5 UP</a></li>
+								<li>&copy; Rodrigo Guzmán - 2022</li></li>
 							</ul>
 						</div>
 					</footer>
 
 			</div>
+
 
 		<!-- Scripts -->
 			<script src="assets/js/jquery.min.js"></script>
@@ -174,5 +322,26 @@
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
 
+		
+
+			<script>
+				function ShowOrHide(descriptionNumber) {
+				  var x = document.getElementById("desc"+descriptionNumber);
+				 
+				  if (x.style.display === "none") {
+		
+					x.style.display = "block";
+				  } else {
+					x.style.display = "none";
+				  }
+				}
+				const theTravelersText = `Starting with a new team from concept ive 
+				been working closely with the lead programmer and a Generalist 3D 
+				Artist with the vision to create a new game. Most of my duties entitles 
+				creating UI with navigation system (Gamepad),shaders,VFX,optimization and 
+				establishing a pipeline to work with the 3D merging the programming side 
+				with the art in the game engine.`;
+				</script>
+				
 	</body>
 </html>
