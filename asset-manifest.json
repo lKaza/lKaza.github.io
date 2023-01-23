@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.25c87eaa.css",
-    "main.js": "/static/js/main.40a80948.js",
+    "main.css": "/static/css/main.8e34228f.css",
+    "main.js": "/static/js/main.f071c4d1.js",
     "static/js/787.d9a20797.chunk.js": "/static/js/787.d9a20797.chunk.js",
     "static/media/vfxs.mp4": "/static/media/vfxs.3f77a8715be857763398.mp4",
     "static/media/christmas.mp4": "/static/media/christmas.c3d09fc1418ab14fe0d6.mp4",
@@ -12,13 +12,18 @@
     "static/media/Headworld.png": "/static/media/Headworld.efd3fca82f2a79490233.png",
     "static/media/roof.mp4": "/static/media/roof.935b047817fe75a3aac9.mp4",
     "static/media/TheTravelers.png": "/static/media/TheTravelers.7003012881706b4294ab.png",
+    "static/media/handclaw.mp4": "/static/media/handclaw.c45362d85761550e0ddc.mp4",
     "static/media/xmas.png": "/static/media/xmas.095b6bc63e92e7bd532d.png",
+    "static/media/shadershadow.mp4": "/static/media/shadershadow.28e6d55f387cbfae5c82.mp4",
     "static/media/Kelo.png": "/static/media/Kelo.bddbc0686a6120fff878.png",
+    "static/media/3dModelstt.png": "/static/media/3dModelstt.2ea0a28888c31e888cb3.png",
     "static/media/logosoloLETRAScolor (1).png": "/static/media/logosoloLETRAScolor (1).029ba0366a5bf435d09a.png",
     "static/media/Projects.png": "/static/media/Projects.4b21f6a541107b77ce57.png",
+    "static/media/outline.png": "/static/media/outline.3c99d7c1b074c251c69f.png",
     "static/media/Rem2.png": "/static/media/Rem2.0c3251bb398b6a5f0f92.png",
     "static/media/PyroBoom2.png": "/static/media/PyroBoom2.2a5c56aa0bdd45dc6040.png",
     "static/media/sparky.png": "/static/media/sparky.b3b2d147b979165d231f.png",
+    "static/media/Noise.png": "/static/media/Noise.d6a1adb1c870fe47763d.png",
     "static/media/Meth_Trail.png": "/static/media/Meth_Trail.ba67059259c7700cf60c.png",
     "static/media/shader-snippet.png": "/static/media/shader-snippet.d3377c7b08fba71c65a2.png",
     "static/media/damagetext-snippet.png": "/static/media/damagetext-snippet.a23c3b25f579437bcaf2.png",
@@ -39,12 +44,12 @@
     "static/media/unity.svg": "/static/media/unity.6581903cc70729134010c676b9657d4e.svg",
     "static/media/jira.svg": "/static/media/jira.e2314081e6bd1cca5d5cec6e5c376843.svg",
     "static/media/trello.svg": "/static/media/trello.6b64bdf3a3c03e10d13c57feb794b778.svg",
-    "main.25c87eaa.css.map": "/static/css/main.25c87eaa.css.map",
-    "main.40a80948.js.map": "/static/js/main.40a80948.js.map",
+    "main.8e34228f.css.map": "/static/css/main.8e34228f.css.map",
+    "main.f071c4d1.js.map": "/static/js/main.f071c4d1.js.map",
     "787.d9a20797.chunk.js.map": "/static/js/787.d9a20797.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.25c87eaa.css",
-    "static/js/main.40a80948.js"
+    "static/css/main.8e34228f.css",
+    "static/js/main.f071c4d1.js"
   ]
 }
